@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact - Netflix Clone</title>
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.4.47/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <header class="bg-black py-3">
+    <div class="contact-container d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="/" class="contact-logo">
+          <img src="./assets/images/netflix logo.png" class="logo">
+        </a>
+        <span class="text-capitalize text-white fs-5 d-block fw-normal">help center</span>
+      </div>
+      <div class="d-flex gap-2 align-items-center">
+        <a class="nav-link nav-item-link" aria-current="page" href="/index.html">Home</a>
+        <a href="#" class="btn btn-sm btn-outline-secondary text-white">Join Netflix</a>
+        <a href="#" class="btn btn-sm btn-danger">Sign In</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-4 contact-container d-flex flex-column gap-4">
+    <h1 class="fw-bold fs-1 pt-2">Contact us</h1>
+
+    <form method="post" accept="#">
+      <div>
+        <label for="search" class="form-label fs-6 text-black fw-bold">Tell us more and we'll find the best solution for you</label>
+        <input type="text" id="search" name="search" class="form-control" placeholder="Describe your issue">
+      </div>
+    </form>
+
+    <div>
+      <span class="fs-5 pb-2 d-block" style="font-weight: 600;">Quick Links</span>
+      <ul class="d-flex flex-column gap-2 links">
+        <li class="quick-link">
+          <span class="mdi mdi-lock-outline fs-6"></span>
+          <a href="#">Reset password</a>
+        </li>
+        <li class="quick-link">
+          <span class="mdi mdi-email-outline fs-6"></span>
+          <a href="#">Update email</a>
+        </li>
+        <li class="quick-link">
+          <span class="mdi mdi-help-circle-outline fs-6"></span>
+          <a href="#">Get help signing in</a>
+        </li>
+        <li class="quick-link">
+          <span class="mdi mdi-credit-card-chip-outline fs-6"></span>
+          <a href="#">Update payment method</a>
+        </li>
+        <li class="quick-link">
+          <span class="mdi mdi-bullhorn-variant-outline fs-6"></span>
+          <a href="#">Request TV shows or movies</a>
+        </li>
+      </ul>
+    </div>
+  </main>
+
+  <footer class="contact-footer">
+    <div class=" contact-container py-5">
+      <div class="row">
+        <form method="post" accept="#" class="col-4">
+          <select class="form-select form-select-md mb-3 bg-transparent text-secondary" aria-label="Large select example">
+            <option selected>English</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+            <option value="3">Three</option>
+          </select>
+        </form>
+      </div>
+
+      <ul class="p-0 m-0 d-flex flex-column gap-2">
+        <li class="list-unstyled">
+          <a href="#" class="text-secondary fs-6 text-decoration-none">Terms of Use</a>
+        </li>
+        <li class="list-unstyled">
+          <a href="#" class="text-secondary fs-6 text-decoration-none">Privacy</a>
+        </li>
+        <li class="list-unstyled">
+          <a href="#" class="text-secondary fs-6 text-decoration-none">Cookie preferences</a>
+        </li>
+        <li class="list-unstyled">
+          <a href="#" class="text-secondary fs-6 text-decoration-none">Corporate Information</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src=" ./assets/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+
+</html>
